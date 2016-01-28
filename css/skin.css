@@ -41,7 +41,7 @@ body,
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
-	line-height: 1.8;
+	line-height: 1.5;
 	color: #666;
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -122,10 +122,14 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
 	line-height: 1;
 	font-weight: normal;
 	color: #232323;
+}
+h5 {
+    margin-top: 2.25rem;
+    margin-bottom: 1.5rem;
 }
 h1 a:hover,
 h2 a:hover,
@@ -230,6 +234,10 @@ h5.project-title{
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+.blog-masonry .overlay-info > span > span{
+	font-size: 2rem;
 }
 
 /* Pricing Table Title */
@@ -529,8 +537,8 @@ h5.project-title{
 	padding-bottom: 11rem;
 }
 .section-block.replicable-content{
-	padding-top: 11rem;
-	padding-bottom: 8rem;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
 }
 .footer-1 .footer-top{
 	padding-top: 9rem;
@@ -1591,6 +1599,20 @@ h5.project-title{
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #ddd;
 }
+
+.post-info-aside .post-info-inner {
+  width: 12rem;
+    border-bottom: none;
+}
+
+.side-col-header {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+    color: #232323;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+}
+
 .post-info-aside .post-love [class*="icon-"]{
 	width: 1.3rem;
 	margin-right: 0.6rem;
@@ -1618,10 +1640,12 @@ h5.project-title{
 .blog-masonry .post-content:not(.post-content.width-background){
 	padding: 0 2rem;
 }
+
 .blog-masonry .post-info-over .day{
-	font-size: 4rem;
+	font-size: 1.9rem;
 	line-height: 3rem;
 }
+
 .blog-masonry .post-info-over .month-year{
 	font-size: 1.1rem;
 }

@@ -5333,6 +5333,10 @@ body.boxed .blog-masonry.full-width [class*="content-grid"]{
 }
 
 /* Sidebar */
+.column.width-3.sidebar {
+    margin-top: 1.5rem;
+}
+
 .sidebar.left .sidebar-inner{
 	padding-right: 1rem;
 }
@@ -5344,12 +5348,12 @@ body.boxed .blog-masonry.full-width [class*="content-grid"]{
 	text-align: left;
 }
 .sidebar .widget:first-child .widget-title{
-	margin-top: 0;
+	margin-top: 0rem;
 }
 
 /* Sidebar & Footer */
 .widget .post-info{
-	display: block;
+    display: block;
 	margin-bottom: 0;
 	line-height: 1;
 }

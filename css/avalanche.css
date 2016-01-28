@@ -1,5 +1,28 @@
  @import "fonts.css";
 
+.hindent {
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+
+.fullblist {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.openblist {
+    list-style-type: circle;
+    margin-left: 2rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+#spots {
+    margin-top: -4.5rem;
+}
+    
 /*------------------------------------------------------------------
 Avalanche Slider
 Version: 1.0.1;
