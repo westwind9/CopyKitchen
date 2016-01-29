@@ -5335,6 +5335,12 @@ body.boxed .blog-masonry.full-width [class*="content-grid"]{
 /* Sidebar */
 .column.width-3.sidebar {
     margin-top: 1.5rem;
+    
+}
+
+.column.width-3.sidebar .sidebar-inner.list-group li {
+    line-height: 1.7rem;
+    
 }
 
 .sidebar.left .sidebar-inner{
