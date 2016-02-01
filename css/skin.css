@@ -175,6 +175,25 @@ h6{
 	color: #666;
 }
 
+.widget li {    
+    border-bottom: none;
+}
+
+.widget {
+ border-bottom: 1px solid #eeeeee; 
+    padding-bottom: 2rem;
+    margin-top: -1.2rem;
+}
+
+.column.width-3.sidebar .widget:nth-last-of-type(2) {
+    border-bottom: none;
+}
+
+.column.width-3.sidebar .widget:last-of-type {
+    border-bottom: none;
+}
+
+
 /* Blog Titles & Text */
 h2.post-title{
 	margin-bottom: 3rem;
@@ -536,8 +555,8 @@ h5.project-title{
 	padding-top: 11rem;
 	padding-bottom: 11rem;
 }
-.section-block.replicable-content{
-	padding-top: 7rem;
+.section-block.replicable-content#services{
+    padding-top: 8vh;
 	padding-bottom: 5rem;
 }
 .footer-1 .footer-top{

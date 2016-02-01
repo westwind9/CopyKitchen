@@ -26,6 +26,14 @@ p {
 .blog-masonry .row {
     margin-top: -3.5rem;
 }
+
+#portfolio {
+    padding-top: 6rem;   
+}
+
+#portfoliomenu {
+    margin-bottom: -.5rem;
+}
     
 /*------------------------------------------------------------------
 Avalanche Slider
