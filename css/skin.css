@@ -901,6 +901,9 @@ h5.project-title{
 	height: 55rem;
 	background: #000;
 }
+.parallax.section-block {
+    height: auto;
+}
 .full-width-slider.window-height,
 .parallax.window-height{
 	height: 100vh;

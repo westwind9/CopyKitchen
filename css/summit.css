@@ -41,6 +41,7 @@ Copyright: ThemeMountain
 	top:0;
 	left:0;
 	position: fixed;
+    text-align: center;
 	z-index: 1000;
 	-webkit-backface-visibility: hidden;
 }
@@ -79,12 +80,16 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [2. Media]
 */
-#tml-content video, 
-#tml-content iframe,
+#tml-content video,
 #tml-content object,
 #tml-content embed {
 	width:100% !important;
 	height:100% !important;
+}
+#tml-content iframe
+ {
+    width: 320px;
+    height: 240px;
 }
 
 /*------------------------------------------------------------------
