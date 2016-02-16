@@ -40,7 +40,11 @@ audio {
 margin-top: 1.2rem;
     margin-bottom: -1.4rem;
 }
-    
+ 
+.tms-caption p {
+    opacity: 0.5;
+    line-height: 2.2rem;
+}
 /*------------------------------------------------------------------
 Avalanche Slider
 Version: 1.0.1;

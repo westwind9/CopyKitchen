@@ -931,6 +931,7 @@ $( document ).ready( function(){
 					});
 				});
 			});
+    
 
 			// Filtering
 			$( msnryFilterMenu ).each( function(){
@@ -939,6 +940,7 @@ $( document ).ready( function(){
 					$( this ).closest( msnryFilterMenu ).find( '.active' ).removeClass( 'active' );
 					$( this ).addClass( 'active' );
 					var targetGrid = $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) ? $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) : $( '[class*="portfolio-"]' ).find( '.masonry-grid' );
+                    //var hashID = "." + window.location.hash.substring(1);
 					var filterValue = $( this ).attr( 'data-filter' );
 					$( targetGrid ).addClass( 'filtering' ).isotope({ filter: filterValue });
 				});
