@@ -876,8 +876,16 @@ $( document ).ready( function(){
 
 				// Call masonry once images have loaded
 				imagesLoaded( grid, function() {
+                    
+                    if (window.location.hash.substring(1).length > 1) {
+                      var hashID = "." + window.location.hash.substring(1);  
+                    }
+                    else {
+                      var hashID = "*";    
+                    }
 					grid.isotope({
-						filter: '*',
+						//filter: '*',
+                        filter: hashID,
 						itemSelector: '.grid-item',
 						isResizeBound: msnryTransResize ? true : false,
 						transitionDuration: msnryTransDuration,
@@ -931,6 +939,8 @@ $( document ).ready( function(){
 					});
 				});
 			});
+            
+          
     
 
 			// Filtering
@@ -940,10 +950,10 @@ $( document ).ready( function(){
 					$( this ).closest( msnryFilterMenu ).find( '.active' ).removeClass( 'active' );
 					$( this ).addClass( 'active' );
 					var targetGrid = $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) ? $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) : $( '[class*="portfolio-"]' ).find( '.masonry-grid' );
-                    //var hashID = "." + window.location.hash.substring(1);
 					var filterValue = $( this ).attr( 'data-filter' );
 					$( targetGrid ).addClass( 'filtering' ).isotope({ filter: filterValue });
 				});
+                
 			});
 		},
 		masonryWrapperWidth: function( grid ){
