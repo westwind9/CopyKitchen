@@ -47,10 +47,11 @@ margin-top: 1.2rem;
     height: 65%;
 }
  
-.tms-caption p {
-    opacity: 0.7;
+.tms-caption p, .tms-caption a {
+    opacity: 0.8;
     line-height: 2.2rem;
 }
+
 .grid-item.grid-sizer video {
     width: 65%;
     height: 65%;
