@@ -3217,7 +3217,7 @@ body.boxed .portfolio-5.full-width > .row > .column{
 }
 @media only screen and (max-width: 960px){
 	[class*="portfolio-"] [class*="content-grid"] .grid-item{
-		width: 100%;
+		width: 50%;
 	}
 	[class*="portfolio-"].full-width.small-margins [class*="content-grid"] .grid-item,
 	[class*="portfolio-"].full-width.no-margins [class*="content-grid"] .grid-item{

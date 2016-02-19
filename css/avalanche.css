@@ -35,15 +35,25 @@ p {
     margin-bottom: -.5rem;
 }
 
+.grid-item audio {
+    background-color: #000000; 
+    width: 65%;
+    height: 65%; 
+}
+
 audio {
- background-color: #000; 
+ background-color: #000000; 
 margin-top: 1.2rem;
     margin-bottom: -1.4rem;
 }
  
 .tms-caption p {
-    opacity: 0.5;
+    opacity: 0.7;
     line-height: 2.2rem;
+}
+.grid-item.grid-sizer video {
+    width: 65%;
+    height: 65%;
 }
 /*------------------------------------------------------------------
 Avalanche Slider
