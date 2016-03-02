@@ -120,18 +120,18 @@ $( document ).ready( function(){
 	var contactRequired = '.required-field';
 	var contactFormSending = 'Please wait.';
 	var contactFormSendingButton = 'Sending...';
-	var contactFormSuccess = 'Thank you, your email has been received!';
+	var contactFormSuccess = 'Thank you, your email has been sent!';
 	var contactFormError = 'Oh boy an error occurred, please try again.';
 	var contactFormFillFields = 'Please fill out required fields.';
 	var contactFormValidEmail = 'Please enter a valid email address.';
 
 	// Google Map
 	var mapIcon = ['images/assets/map-marker.png','images/assets/map-marker-2.png'];
-	var mapLocations = [[40.723301,-74.002988],[40.691052,-73.925457]];
-	var mapInfoContent = ['Downtown New York Office<br>44 St. West 32','The Brooklyn Office<br>East Village 55th St.'];
+	var mapLocations = [[39.270951,-84.255442]];
+	var mapInfoContent = ['<strong>Copy Kitchen</strong><br>118 Maple Avenue<br>Loveland, Ohio<br>513-315-9265'];
 	var mapIconW = 45; // Half of actual width
 	var mapIconH = 53; // Half of actual height
-	var mapZoomLevel = 12;
+	var mapZoomLevel = 10;
 	var mapZoomMseWheel = false;
 	var mapTypeCtrl = false;
 	var mapPanCtrl = false;

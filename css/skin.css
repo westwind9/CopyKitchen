@@ -544,6 +544,24 @@ h5.project-title{
 	color: #6ed3cf;
 }
 
+/* graytan */
+.bkg-graytan{
+	background-color: #ad9b85;
+	border-color: #ad9b85;
+}
+.bkg-hover-graytan:hover{
+	background-color: #ad9b85;
+	border-color: #ad9b85;
+}
+.border-graytan,
+.border-hover-graytan:hover{
+	border-color: #ad9b85;
+}
+.color-graytan,
+.color-hover-graytan:hover{
+	color: #ad9b85;
+}
+
 
 /*------------------------------------------------------------------
 [3. Section Padding]
@@ -1831,15 +1849,15 @@ textarea.required-field{
 .contact-form-container ::-webkit-input-placeholder {
 	color: #666;
 }
-.contact-form-containe :-moz-placeholder {
+.contact-form-container :-moz-placeholder {
 	color: #666;
 	opacity: 1;
 }
-.contact-form-containe ::-moz-placeholder {
+.contact-form-container ::-moz-placeholder {
 	color: #666;
 	opacity: 1;
 }
-.contact-form-containe :-ms-input-placeholder {
+.contact-form-container :-ms-input-placeholder {
 	color: #666;
 }
 
