@@ -414,7 +414,7 @@
 						<div class="column width-10 offset-1 center">
 							<h2 class="weight-bold mb-30">Talk with the Chef</h2>
 							<div class="contact-form-container">
-								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
+								<form class="contact-form" action="php/send-email.php" method="post" enctype="text/plain"  novalidate>
 									<div class="row">
 										<div class="column width-6">
 											<div class="field-wrapper">
@@ -444,7 +444,7 @@
 												<textarea name="message" class="form-message form-element medium" placeholder="Message*" tabindex="3" required></textarea>
 												<span class="border"></span>
 											</div>
-											<input type="submit" value="Send Email" class="form-submit button rounded border-grey-light border-hover-charcoal color-grey-light color-hover-charcoal">
+											<input type="submit"  value = "Send Email" class="form-submit button rounded border-grey-light border-hover-charcoal color-grey-light color-hover-charcoal">
 										</div>
 									</div>
 								</form>

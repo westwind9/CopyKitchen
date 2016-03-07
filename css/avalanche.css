@@ -56,6 +56,23 @@ margin-top: 1.2rem;
     width: 65%;
     height: 65%;
 }
+
+#about {
+    margin-top: -5rem;   
+}
+.blog-single-post.content-inner {
+    margin-top: -5rem;   
+}
+.list-group.sidebar-inner {  
+    margin-top: -5.3rem;  
+}
+h3.mb-30.weight-bold {
+    margin-top: -5rem;
+}
+.width-4.column .list-group {
+    margin-top: -4rem;   
+}
+
 /*------------------------------------------------------------------
 Avalanche Slider
 Version: 1.0.1;
