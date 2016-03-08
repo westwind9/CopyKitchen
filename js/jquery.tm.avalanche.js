@@ -1789,4 +1789,5 @@
 		onSlideshowPause: null,							// Callback: on slideshow pause
 		onSlideshowEnd: null							// Callback: on slideshow end
 	};
+    
 })(jQuery, document, window);

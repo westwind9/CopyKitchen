@@ -302,6 +302,7 @@ $( document ).ready( function(){
 				animation: 'slide',
 				easing: 'easeInOutQuart',
 				speed: 700,
+                interval: 50,
 				autoAdvance: false,
 				fullscreen: true,
 				captionScaling: false,
@@ -318,10 +319,11 @@ $( document ).ready( function(){
 				animation: 'slide',
 				easing: 'easeInOutQuart',
 				speed: 700,
-				autoAdvance: false,
+				autoAdvance: true,
 				forceFit: false,
 				fullwidth: true,
 				scaleUnder: 960,
+                showProgressBar: false,
 				captionScaling: true,
 				lazyLoad: true,
 				navArrows: true,
@@ -370,7 +372,8 @@ $( document ).ready( function(){
 				animation: 'slide',
 				easing: 'easeInOutQuart',
 				speed: 900,
-				autoAdvance: false,
+                //interval: 50,
+				autoAdvance: true,
 				scaleMinHeight: 'auto',
 				carousel: true,
 				carouselVisible: 1,
@@ -379,6 +382,7 @@ $( document ).ready( function(){
 				navArrows: false,
 				navPagination: true,
 				navShowOnHover: false,
+                showProgressBar: false,
 				retinaSupport: false
 			});
 

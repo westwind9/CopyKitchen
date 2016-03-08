@@ -270,7 +270,7 @@ $( document ).ready( function(){
 				animation: 'slide',
 				easing: 'easeInOutQuart',
 				speed: 700,
-				autoAdvance: false,
+				autoAdvance: true,
 				forceFit: false,
 				scaleMinHeight: 'auto',
 				carousel: true,
